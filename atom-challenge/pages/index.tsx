@@ -1,10 +1,10 @@
 import { Inter } from 'next/font/google'
+import Image from 'next/image'
+import * as images from '../assets'
 import Logo from '@/components/Logo'
 import NavButton from '@/components/NavButton'
 import Search from '@/components/Search'
 import SideText from '@/components/SideText'
-import Image from 'next/image'
-import * as images from '../assets'
 import Arrow from '@/components/Arrow'
 
 const inter = Inter({ subsets: ['latin'] })
